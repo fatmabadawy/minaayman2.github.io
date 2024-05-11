@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiriazi 6400 SS Gas Cooker Details</title>
+    <style>
+        /* Add styles for the product details page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .product-details {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        
+        .product-details h1 {
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .product-images {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .product-images img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-images img:hover {
+            transform: scale(1.05);
+        }
+        
+        .product-description {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .add-to-cart-btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .add-to-cart-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-details">
+            <h1>Kiriazi 6400 SS Gas Cooker Details</h1>
+            <div class="product-images">
+                <figure>
+                    <img src="1.jpg" alt="Kiriazi 6400 SS Gas Cooker">
+                    <figcaption>Caption for Image 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="2.jpg" alt="Kiriazi 6400 SS Gas Cooker">
+                    <figcaption>Caption for Image 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="3.jpg" alt="Kiriazi 6400 SS Gas Cooker">
+                    <figcaption>Caption for Image 3</figcaption>
+                </figure>
+            </div>
+            <p class="product-description">
+                Freestanding gas cooker with 4 burners, auto-ignition, grill, oven light, and silver color.
+            </p>
+            <button id="add-to-cart-btn" class="add-to-cart-btn">Add to Cart</button>
+            <hr>
+            <h2>Product Features</h2>
+            <ul>
+                <li>4 burners</li>
+                <li>Auto-ignition</li>
+                <li>Grill</li>
+                <li>Oven light</li>
+                <li>Silver color</li>
+            </ul>
+            <hr>
+            <h2>Price</h2>
+            <p>$XXX.XX</p>
+        </div>
+    </div>
+    <script>
+        // You can add functionality for adding the product to cart here
+        // For simplicity, let's just display an alert for now
+        document.addEventListener("DOMContentLoaded", function() {
+            const addToCartBtn = document.getElementById("add-to-cart-btn");
+        
+            addToCartBtn.addEventListener("click", function() {
+                alert("Product added to cart!");
+            });
+        });
+    </script>
+</body>
+</html>
